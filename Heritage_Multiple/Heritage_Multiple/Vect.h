@@ -1,7 +1,7 @@
 #pragma once
 class Vect
 {
-private:
+protected:
 	int nElem;
 	int* nAdr;
 

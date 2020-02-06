@@ -20,11 +20,11 @@ Vect::Vect(int nElem) {
 
 //Surcharge opérateur
 int& Vect::operator[](int nElem) {
-	return this->nAdr[nElem - 1];
+	return this->nAdr[nElem];
 }
 
 //Destructeur
 Vect::~Vect() {
-	free(this->nAdr);
+	//free(this->nAdr);
 	nAdr = NULL;
 }

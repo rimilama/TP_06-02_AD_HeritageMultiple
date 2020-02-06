@@ -20,10 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{DCB22DD8-1BC9-44DD-AAB6-B1311C58AFAB}</ProjectGuid>
+    <ProjectGuid>{AD1F0AA1-697B-42A0-80F5-B4772E712ABA}</ProjectGuid>
     <RootNamespace>HeritageMultiple</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>HeritageMultiple</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,10 +126,12 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Vect.cpp" />
     <ClCompile Include="Vectb.cpp" />
+    <ClCompile Include="Vectok.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vect.h" />
     <ClInclude Include="Vectb.h" />
+    <ClInclude Include="Vectok.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
